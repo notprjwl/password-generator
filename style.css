@@ -88,10 +88,14 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  #input-box {
+  /* #input-box {
     font-size: medium;
     padding-right: 0px;
 
+  } */
+    #input-box {
+    width: 80%; /* Set a percentage width for smaller screens */
+    margin: 10px auto; /* Center the input box on smaller screens */
   }
 
   .container{
@@ -114,4 +118,3 @@ body{
 #my-slider{
   width: 70%;
 }
-
