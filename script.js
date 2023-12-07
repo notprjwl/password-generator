@@ -7,7 +7,7 @@ const inputBox = document.getElementById('input-box')
 slider.addEventListener('input', () => {
   const value = slider.value
   selectedNumber.textContent = value
-  console.log(slider.value)
+  // console.log(slider.value)
 
 });
 
@@ -17,7 +17,7 @@ function generate() {
   const password = generatePswd(length)
   inputBox.value = password
   document.getElementById('btn2').innerText = 'Copy'
-  console.log(password)
+  // console.log(password)
 
 }
 
