@@ -1,6 +1,7 @@
 # password-generator
 
 A simple web-based password generator that allows users to customize the length of the password and copy it to the clipboard.
+Live at https://notprjwl.github.io/password-generator/
 
 ## Features
 
